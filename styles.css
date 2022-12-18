@@ -1,0 +1,713 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+#menu{
+    float: right;
+    width: 100%;
+    height: 100%;
+    margin: none;
+  }
+     
+  #menu ul{
+    text-align: center;
+    float: right;
+    margin: 5 5 0 0;
+    background: transparent;
+  }
+     
+  #menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+  }
+     
+  #menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+  }
+     
+  #menu li a{
+         
+    color: rgb(225, 229, 226);
+  }
+     
+  #menu li:hover a, #menu li span{
+    background: transparent;
+    color: #d90e00;
+    border-left: 0px solid #0074D9;
+    text-decoration-color: yellow;
+  }
+
+  html,
+
+  body {
+    
+    scroll-behavior: smooth;
+    background: linear-gradient(180deg, #012027 0%, #011827 100%);
+     
+   }
+
+   
+.homepage { 
+    min-height: 100vh;
+
+background-image: url("..\img\Expo coming soon.png")no-repeat center center/cover;}
+
+.homepage .logo{
+    position: absolute;
+    left: 497px;
+    top: 169px;
+width: 507px;
+height: 340px;
+
+
+
+}
+
+.homemain{
+    
+    position: absolute;
+    left: 193px;
+    top: 509px;
+width: 1080px;
+
+height: 1950px;
+
+}
+
+.rectangle{position: absolute;
+width: 1564px;
+/*height: 72px;*/
+top: 1090px;
+    
+
+background: radial-gradient(72.22% 72.22% at 50% 50%, #0A313F 0%, #000000 100%);}
+
+.hp-btn .register{
+    position: absolute;
+    width: 650px;
+    height: 70px;
+    top: 1090px;
+    left: 30%;
+    
+    font-family: 'Ramabhadra';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.46em;
+    text-transform: uppercase;
+    
+    color: #fef4f4;
+    background: transparent;
+    
+    text-shadow: transparent;
+}
+
+.scroll .line {
+    
+
+    position: absolute;
+    
+    top:830px;
+   right: 87%;
+width: 348px;
+height: 0px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+}
+
+.scroll p{
+    position: absolute;
+width: 285px;
+height: 79px;
+top:795px;
+right: 87%;
+
+font-family: 'Ramabhadra';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.255em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+}
+
+#about .heading{
+    position: absolute;
+    top:1200px;
+width: 1800px;
+height: 180px;
+left: 24%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 99px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #0B75D3 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+#about .para{
+    position: absolute;
+    top:1400px;
+    left:15%;
+
+width: 1100px;
+/*height: 387px;*/
+
+font-family: 'Quattrocento Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 180.5%;
+/* or 43px */
+
+display: flex;
+align-items: center;
+text-align: justify;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+#about .headingg{
+    position: absolute;
+    top:2000px;
+width: 1800px;
+height: 180px;
+left: 24%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 99px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #0B75D3 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+#about .paraa{
+    position: absolute;
+    top:2100px;
+    left:15%;
+
+width: 1100px;
+height: 387px;
+
+font-family: 'Quattrocento Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 180.5%;
+/* or 43px */
+
+display: flex;
+align-items: center;
+text-align: justify;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+#about .img .sl{
+    position: absolute;
+    top:1350px;
+    right:85%;
+width: 556px;
+height: 538px;
+
+background: radial-gradient(41.29% 41.29% at 50% 50%, #0C81E9 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+#about .img .sr{
+    position: absolute;
+    top:1350px;
+    left:85%;
+width: 556px;
+height: 538px;
+
+background: radial-gradient(41.29% 41.29% at 50% 50%, #0C81E9 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+#about .img .sl1{
+    position: absolute;
+    top:1940px;
+    right:85%;
+width: 556px;
+height: 538px;
+
+background: radial-gradient(41.29% 41.29% at 50% 50%, #0C81E9 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+#about .img .sr1{
+    position: absolute;
+    top:1940px;
+    left:85%;
+width: 556px;
+height: 538px;
+
+background: radial-gradient(41.29% 41.29% at 50% 50%, #0C81E9 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+#about .hp--btn .apply{position: absolute;
+    top:2444px;
+    left:44%;
+    
+width: 312px;
+/*height: 43px;*/
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+background: transparent;
+border: #fef4f4;
+color: #1381E2;}
+
+#about .rect .sl1{
+    position: absolute;
+    top:2440px;
+    left:40%;
+width: 382px;
+/*height: 80px;*/
+
+background: rgba(217, 217, 217, 0.85);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(20, 134, 228, 0.54);
+border-radius: 20px;
+}
+
+#why .heading{
+    top:2650px;
+    left: 30%;
+    position: absolute;
+width: 664px;
+height: 99px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 99px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #1281E4 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+#why .whyrow .r11{
+    box-sizing: border-box;
+
+position: absolute;
+top:2750px;
+    left: 10%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+#why .whyrow .r12{
+    box-sizing: border-box;
+
+position: absolute;
+top:2750px;
+    left: 40%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+#why .whyrow .r13{
+    box-sizing: border-box;
+
+position: absolute;
+top:2750px;
+    left: 70%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border: #0074D9;
+border-radius: 20px;
+}
+
+#why .whyrow .r21{
+    box-sizing: border-box;
+
+position: absolute;
+top:3150px;
+    left: 10%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+#why .whyrow .r22{
+    box-sizing: border-box;
+
+position: absolute;
+top:3150px;
+    left: 40%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+#why .whyrow .r23{
+    box-sizing: border-box;
+
+position: absolute;
+top:3150px;
+    left: 70%;
+width: 327px;
+/*height: 344px;*/
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+
+#why .whyrow .r31{
+    box-sizing: border-box;
+
+position: absolute;
+top:3550px;
+    left: 10%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+#why .whyrow .r32{
+    box-sizing: border-box;
+
+position: absolute;
+top:3550px;
+    left: 40%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+#why .whyrow .r33{
+    box-sizing: border-box;
+
+position: absolute;
+top:3550px;
+    left: 70%;
+width: 327px;
+height: 344px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+#why .img .sl{
+    position: absolute;
+    top:3100px;
+    right:85%;
+width: 556px;
+height: 538px;
+
+background: radial-gradient(41.29% 41.29% at 50% 50%, #0C81E9 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+#why .img .sr{
+    position: absolute;
+    top: 3100px;
+    left:85%;
+width: 556px;
+height: 538px;
+
+background: radial-gradient(41.29% 41.29% at 50% 50%, #0C81E9 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+#attend .heading{
+    top:4000px;
+    left: 47%;
+    position: absolute;
+width: 664px;
+height: 99px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 99px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #ebeff4 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+#attend .img .i{
+    position: absolute;
+    top:4120px;
+    right: 60%;
+width: 507px;
+height: 340px;
+
+
+}
+
+#attend .list {
+
+position: absolute;
+top:4100px;
+left: 45%;
+width: 1289px;
+/*height: 300px;*/
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 49px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+#map .heading{
+    top:4950px;
+    left: 40%;
+    position: absolute;
+width: 664px;
+height: 99px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 99px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #ebeff4 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+#map .img .i{
+    box-sizing: border-box;
+  
+position: absolute;
+top:5060px;
+left:25%;
+width: 963px;
+height: 985px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+
+}
+
+#map .img .ii{
+    box-sizing: border-box;
+  
+position: absolute;
+top:5200px;
+left:33.5%;
+width: 676px;
+height: 687px;
+
+background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+
+}
+
+
+footer {
+    position: absolute;
+    top: 6100px;
+    background-color: #000000;
+    width: 100%;
+    color: #ffffff;
+    padding: 50px 10vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer h3 {
+    font-size: 25px;
+  }
+  
+  footer a {
+    color: #ffffff;
+  }
+  
+  footer a:hover {
+    color: #fbb64a;
+    cursor: pointer;
+  }
+  
+  
+  #img-ecell-footer {
+    left:10%;
+    width: 40vw;
+    margin: auto;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer h3 {
+    font-size: 14px;
+    width: 90vw;
+  }
+  footer h4 {
+    width: 100vw;
+  }
+  .footer-icons {
+    font-size: 14px;
+  }
+  .footer-icons img {
+    display: inline-block;
+    margin: 2vh;
+  }
